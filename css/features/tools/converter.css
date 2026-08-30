@@ -1,0 +1,23 @@
+/* ══════════════════════ CONVERTER ══════════════════════ */
+.conv-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--bor);font-size:12.5px}
+.conv-row:last-child{border-bottom:none}
+.conv-unit{color:var(--ink4);font-size:11px}
+.conv-val{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--ink)}
+
+/* Center large tool pages */
+#pg-gpa > div,
+#pg-converter > div,
+#pg-ibpoints > div,
+#pg-cas > div{
+  max-width:920px;
+  width:100%;
+  margin:0 auto;
+}
+#pg-gpa #gpa-results{grid-template-columns:repeat(3,minmax(150px,1fr));}
+#pg-converter .card,
+#pg-ibpoints .card,
+#pg-cas .card,
+#pg-gpa .card{
+  box-shadow:var(--sh1);
+}
+

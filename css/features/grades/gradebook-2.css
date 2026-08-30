@@ -1,0 +1,20 @@
+/* ══════════════════════ GRADE BOOK ══════════════════════ */
+.gb-sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:18px}
+.gb-sc{background:var(--sur);border:1px solid var(--bor);border-radius:12px;padding:14px;text-align:center;box-shadow:var(--sh1)}
+.gb-sv{font-family:var(--font-h);font-size:28px;font-weight:700;line-height:1.1}
+.gb-sl{font-size:10px;color:var(--ink4);margin-top:4px;text-transform:uppercase;letter-spacing:.5px}
+.gb-course{background:var(--sur);border:1px solid var(--bor);border-radius:12px;margin-bottom:10px;overflow:hidden;box-shadow:var(--sh1)}
+.gb-ch{display:flex;align-items:center;gap:10px;padding:14px 16px;cursor:pointer;background:var(--s2);transition:background .12s}
+.gb-ch:hover{background:var(--s3)}
+.gb-cn{font-size:13.5px;font-weight:700;flex:1}
+.gb-avg{font-family:var(--font-h);font-size:22px;font-weight:700}
+.gb-ltr{font-size:10px;font-weight:800;padding:3px 9px;border-radius:99px;margin-left:6px}
+.gb-bd{display:none;padding:0}.gb-bd.open{display:block}
+.gb-tbl{width:100%;border-collapse:collapse;font-size:12.5px}
+.gb-tbl th{padding:8px 14px;text-align:left;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.7px;color:var(--ink4);border-bottom:1px solid var(--bor);background:var(--s2)}
+.gb-tbl td{padding:9px 14px;border-bottom:1px solid var(--bor)}
+.gb-tbl tr:last-child td{border-bottom:none}
+.gb-tbl tr:hover td{background:var(--s2)}
+.gb-add{width:100%;padding:10px;background:none;font-size:12px;color:var(--ac);font-family:var(--font);font-weight:600;border-top:1px solid var(--bor);cursor:pointer;transition:background .12s}
+.gb-add:hover{background:var(--acll)}
+

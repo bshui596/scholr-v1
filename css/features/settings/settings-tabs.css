@@ -1,0 +1,12 @@
+/* ══════════════════════ SETTINGS TABS ══════════════════════ */
+.set-tabs{display:flex;gap:2px;border-bottom:1px solid var(--bor);margin-bottom:16px;overflow-x:auto;flex-shrink:0;padding-bottom:0}
+.set-tab{padding:8px 14px;background:none;font-size:12px;font-weight:600;color:var(--ink3);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;font-family:var(--font);transition:all .12s;border-radius:6px 6px 0 0}
+.set-tab:hover{color:var(--ink2);background:var(--s2)}.set-tab.on{color:var(--ac);border-bottom-color:var(--ac)}
+.set-p{display:none}.set-p.on{display:block;animation:pgIn .18s ease}
+.set-sec{background:var(--sur);border:1px solid var(--bor);border-radius:var(--rad);padding:18px;margin-bottom:12px;box-shadow:var(--sh1)}
+.set-sec h3{font-size:13px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:7px;color:var(--ink)}
+.set-row{display:flex;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid var(--bor)}
+.set-row:first-child{padding-top:0}.set-row:last-child{border-bottom:none;padding-bottom:0}
+.set-row label{flex:1;font-size:13px;font-weight:500}
+.set-row label small{display:block;font-size:10.5px;color:var(--ink4);font-weight:400;margin-top:2px}
+

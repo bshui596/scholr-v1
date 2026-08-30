@@ -1,0 +1,6 @@
+/* ══════════════════════ GPA ══════════════════════ */
+.gpa-row{display:grid;grid-template-columns:1fr 100px 80px 90px 70px 32px;gap:8px;align-items:center;padding:6px 16px;border-bottom:1px solid var(--bor)}
+.gpa-row:last-child{border-bottom:none}
+.gpa-scale-badge{padding:5px 12px;border-radius:8px;font-size:11px;font-weight:700;text-align:center;border:1px solid var(--bor)}
+.gpa-scale-badge.cur{border-color:var(--ac);background:var(--acll);color:var(--ac)}
+

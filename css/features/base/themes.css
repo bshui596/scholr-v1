@@ -1,0 +1,34 @@
+/* ── THEMES ── */
+:root,[data-t="forest"]{
+  --bg:#F2F7F4;--sur:#FFFFFF;--s2:#EAF3EE;--s3:#D8ECE1;
+  --bor:#C2D8CB;--bor2:#9ABFAA;
+  --ink:#0A1A10;--ink2:#1C3D28;--ink3:#3D7055;--ink4:#7AA88A;
+  --ac:#0F6B30;--ac2:#158A3E;--acl:#B8E2C8;--acll:#E6F7ED;
+  --red:#B91C1C;--redl:#FEE2E2;--amb:#B45309;--ambl:#FEF3C7;
+  --blu:#1D4ED8;--blul:#DBEAFE;
+  --sh1:0 1px 3px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.03);
+  --sh2:0 4px 16px rgba(0,0,0,.07),0 2px 4px rgba(0,0,0,.04);
+  --sh3:0 20px 60px rgba(0,0,0,.12),0 8px 24px rgba(0,0,0,.07);
+  --rad:10px;--sw:260px;--th:52px;
+  --on-ac:#fff; /* text color used on top of --ac-colored surfaces (buttons, tabs, chips) — overridden per-theme below for dark themes whose --ac is too light for white text to stay readable */
+  --font:'Outfit',sans-serif;--font-h:'Fraunces',serif;--font-m:'JetBrains Mono',monospace;
+}
+[data-t="ocean"]{--bg:#EFF4FB;--sur:#fff;--s2:#E3EDF8;--s3:#C8DDEF;--bor:#B0C8E2;--bor2:#88AACF;--ink:#091525;--ink2:#162E50;--ink3:#2E5C8E;--ink4:#6897C4;--ac:#1750A8;--ac2:#1D66CC;--acl:#BAD0F5;--acll:#E3EEFE}
+[data-t="sunset"]{--bg:#FBF5EF;--sur:#fff;--s2:#F6EDE4;--s3:#EDD9C5;--bor:#DDBF9D;--bor2:#C4986E;--ink:#271005;--ink2:#582408;--ink3:#964D1A;--ink4:#C4834A;--ac:#C05418;--ac2:#D96920;--acl:#F5C99A;--acll:#FDF0E2}
+[data-t="rose"]{--bg:#FBF0F5;--sur:#fff;--s2:#F7E6F0;--s3:#EFC8DC;--bor:#DDA0BD;--bor2:#C8739A;--ink:#280010;--ink2:#5C1132;--ink3:#9C2E5A;--ink4:#C46888;--ac:#B5185B;--ac2:#D02270;--acl:#F5B8D2;--acll:#FDE5EF}
+[data-t="violet"]{--bg:#F6F0FB;--sur:#fff;--s2:#EFE6F8;--s3:#DED0F4;--bor:#C4ADE6;--bor2:#A07ED0;--ink:#140624;--ink2:#320B60;--ink3:#6030A8;--ink4:#9060C4;--ac:#6820D8;--ac2:#7B2EEC;--acl:#D0B8F8;--acll:#ECE3FE}
+[data-t="slate"]{--bg:#F3F5F8;--sur:#fff;--s2:#ECF0F4;--s3:#DDE4EA;--bor:#C0CCD8;--bor2:#96AAB8;--ink:#0C1520;--ink2:#1C2E3C;--ink3:#3E5668;--ink4:#7E98A8;--ac:#2C4A62;--ac2:#3A6080;--acl:#B8CCDA;--acll:#E0EBF2}
+[data-t="teal"]{--bg:#EEF9F8;--sur:#fff;--s2:#E2F6F4;--s3:#C0EEEA;--bor:#88D6D0;--bor2:#56BEB8;--ink:#001F1E;--ink2:#083E3C;--ink3:#147870;--ink4:#48B0A8;--ac:#0C706A;--ac2:#0D9088;--acl:#90E0D8;--acll:#C8F4F0}
+[data-t="midnight"]{--bg:#0D1524;--sur:#162035;--s2:#1C2A40;--s3:#243550;--bor:#2E4060;--bor2:#3C5478;--ink:#E2EAF4;--ink2:#A8BCCE;--ink3:#6888A4;--ink4:#3C5470;--ac:#7B9CF8;--ac2:#9AB4FC;--acl:#2A3C6C;--acll:#1A2A50;--on-ac:#0A1220}
+[data-t="cherry"]{--bg:#FAF0F0;--sur:#fff;--s2:#F5E4E4;--s3:#ECC8C8;--bor:#DDA0A0;--bor2:#C87070;--ink:#250000;--ink2:#540E0E;--ink3:#8E2828;--ink4:#C05858;--ac:#901818;--ac2:#B01E1E;--acl:#F4B8B8;--acll:#FCE8E8}
+[data-t="gold"]{--bg:#FAF7EE;--sur:#fff;--s2:#F6F0DC;--s3:#EDE4C0;--bor:#D8CC8C;--bor2:#C0A858;--ink:#241400;--ink2:#503000;--ink3:#8C5C00;--ink4:#C09030;--ac:#8A5000;--ac2:#AA6400;--acl:#EDD880;--acll:#FAF2C4}
+[data-t="noir"]{--bg:#111111;--sur:#1A1A1A;--s2:#222222;--s3:#2A2A2A;--bor:#333333;--bor2:#444444;--ink:#EEEEEE;--ink2:#CCCCCC;--ink3:#999999;--ink4:#555555;--ac:#E0E0E0;--ac2:#FFFFFF;--acl:#333333;--acll:#222222;--on-ac:#0A0A0A}
+[data-t="mint"]{--bg:#F0FBF6;--sur:#fff;--s2:#E3F7EE;--s3:#C8EFD9;--bor:#9ADCBA;--bor2:#6BCFA0;--ink:#062018;--ink2:#0C4030;--ink3:#1A7A55;--ink4:#4DAA80;--ac:#0F7A4A;--ac2:#129960;--acl:#8ADCB8;--acll:#D0F5E6}
+[data-t="paper"]{--bg:#F8F4EC;--sur:#FFFEF8;--s2:#F2ECD8;--s3:#E8DEC4;--bor:#D4C8A8;--bor2:#BAA880;--ink:#2C1F0A;--ink2:#4A3418;--ink3:#7A5C30;--ink4:#AA8C60;--ac:#6B4C1A;--ac2:#8A6428;--acl:#D4BC88;--acll:#F0E8CC}
+[data-t="candy"]{--bg:#FEF0F8;--sur:#fff;--s2:#FCE4F4;--s3:#F8C8E8;--bor:#F0A0D0;--bor2:#E078B8;--ink:#3A0028;--ink2:#6A1048;--ink3:#B03880;--ink4:#D870A8;--ac:#C03078;--ac2:#E04898;--acl:#F5A8D8;--acll:#FDE0F0}
+[data-t="aurora"]{--bg:#F3F2FF;--sur:#FFFFFF;--s2:#E9E6FF;--s3:#D9D0FF;--bor:#B9AEF3;--bor2:#8B7AE6;--ink:#1B1550;--ink2:#31206E;--ink3:#5A4ABA;--ink4:#7D6CC1;--ac:#5B46EA;--ac2:#7E6CFF;--acl:#D8D4FB;--acll:#EFEAFE}
+[data-t="ember"]{--bg:#FFF5EB;--sur:#FFFFFF;--s2:#FCE8D9;--s3:#F5D4B8;--bor:#E0B79A;--bor2:#D48C5D;--ink:#432A0E;--ink2:#623E16;--ink3:#9C5B2A;--ink4:#CA843E;--ac:#C14B0D;--ac2:#F97316;--acl:#F9D6B1;--acll:#FFF2E6}
+[data-t="retro"]{--bg:#F5F1EA;--sur:#FFFFFF;--s2:#E7DED1;--s3:#D9C9B7;--bor:#B7A58A;--bor2:#947755;--ink:#3C2C1F;--ink2:#5A4532;--ink3:#7F5B3D;--ink4:#A67C4E;--ac:#A35B12;--ac2:#C07C3A;--acl:#E7D1B3;--acll:#F6EFE6}
+[data-t="moonrise"]{--bg:#0F192D;--sur:#17243F;--s2:#1F2F53;--s3:#2D3D6A;--bor:#3F537F;--bor2:#5269A4;--ink:#E6EDF8;--ink2:#B8C4E1;--ink3:#94A2CD;--ink4:#7A8EC5;--ac:#6B8CF8;--ac2:#8AA8FF;--acl:#2D3F72;--acll:#1D2A4D;--on-ac:#0B1424}
+[data-t="custom"]{--bg:var(--c-bg,#F2F7F4);--sur:var(--c-sur,#fff);--s2:var(--c-s2,#EAF3EE);--s3:var(--c-s3,#D8ECE1);--bor:var(--c-bor,#C2D8CB);--bor2:var(--c-bor2,#9ABFAA);--ink:var(--c-ink,#0A1A10);--ink2:var(--c-ink2,#1C3D28);--ink3:var(--c-ink3,#3D7055);--ink4:var(--c-ink4,#7AA88A);--ac:var(--c-ac,#0F6B30);--ac2:var(--c-ac2,#158A3E);--acl:var(--c-acl,#B8E2C8);--acll:var(--c-acll,#E6F7ED)}
+

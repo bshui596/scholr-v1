@@ -1,0 +1,40 @@
+/* ══════════════════════ RESPONSIVE ══════════════════════ */
+@media(max-width:700px){.d-grid{grid-template-columns:1fr}.kanban{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr 1fr}.wp-board{grid-template-columns:repeat(2,1fr)}}
+
+
+
+/* Split-screen overlay styles (larger by default) */
+#split-ov{position:fixed;inset:0;display:none;z-index:12000;background:rgba(8,12,10,.6);align-items:center;justify-content:center;padding:12px}
+#split-ov.on{display:flex}
+.split-top{position:absolute;top:12px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:12001}
+.split-body{display:flex;width:96%;height:88%;background:var(--sur);border-radius:12px;overflow:hidden;border:1px solid var(--bor);box-shadow:var(--sh3)}
+.split-pane{width:50%;height:100%;overflow:auto;background:var(--bg);padding:8px}
+.split-pane iframe, #embed-frame, #desmos-frame{width:100%;height:100%;border:0;min-height:360px}
+.split-pane.wide iframe{width:120%;transform:translateX(-10%)}
+.split-resizer{width:10px;cursor:col-resize;background:transparent}
+.split-resizer:hover{background:var(--acll)}
+.split-ctrl{display:inline-flex;gap:6px}
+.no-select{user-select:none}
+/* Custom rounded cursor (applied when body has .use-custom-cursor) */
+body.use-custom-cursor, body.use-custom-cursor *{cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><circle cx='14' cy='14' r='9' fill='%230F6B30' stroke='%23ffffff' stroke-width='2'/></svg>") 14 14, auto}
+
+
+
+@keyframes gateIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes gateInUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes gateShake{0%,100%{transform:none}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+@keyframes logoFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+@keyframes shineText{to{background-position:200% center}}
+@keyframes dotPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
+@keyframes boxGlow{0%,100%{box-shadow:0 24px 60px rgba(0,0,0,.45),0 2px 8px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.08)}50%{box-shadow:0 24px 70px rgba(15,107,48,.25),0 2px 8px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.12)}}
+@keyframes orbFloat1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(40px,30px) scale(1.1)}}
+@keyframes orbFloat2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-35px,-25px) scale(1.08)}}
+@keyframes orbFloat3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-20px,25px) scale(.92)}}
+#gate-inp:focus{border-color:#1CA24C !important;box-shadow:0 0 0 3px rgba(28,162,76,.22);background:rgba(0,0,0,.32) !important}
+@media(prefers-reduced-motion:reduce){.gate-orb,.gate-logo,.gate-title,.gate-box,#gate span{animation:none!important}}
+@media(max-height:640px){
+  #gate .gate-logo{font-size:36px!important;margin-bottom:4px!important}
+  #gate .gate-title{font-size:24px!important;margin-bottom:2px!important}
+  #gate .gate-sub2{margin-bottom:16px!important}
+  #gate .gate-box{padding:18px 22px!important}
+}

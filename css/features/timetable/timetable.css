@@ -1,0 +1,18 @@
+/* ══════════════════════════════════════════
+   TIMETABLE — day-number system
+══════════════════════════════════════════ */
+.tt-wrap{background:var(--sur);border:1px solid var(--bor);border-radius:var(--rad);overflow:hidden;margin-bottom:16px;box-shadow:var(--sh1)}
+.tt-head{display:flex;border-bottom:2px solid var(--bor)}
+.tt-dh{padding:9px 8px;text-align:center;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--ink4);border-right:1px solid var(--bor);flex:1}
+.tt-dh:first-child{width:62px;flex:0 0 62px}
+.tt-dh:last-child{border-right:none}
+.tt-row{display:flex;border-bottom:1px solid var(--bor);min-height:58px}
+.tt-row:last-child{border-bottom:none}
+.tt-t{padding:5px 3px;font-family:var(--font-m);font-size:8.5px;color:var(--ink4);border-right:1px solid var(--bor);display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.35;width:62px;flex-shrink:0}
+.tt-cell{border-right:1px solid var(--bor);padding:3px;flex:1}.tt-cell:last-child{border-right:none}
+.tt-cls{height:100%;border-radius:6px;padding:5px 8px;font-size:11px;font-weight:700;line-height:1.3;cursor:pointer;transition:opacity .12s;display:flex;flex-direction:column;justify-content:center}
+.tt-cls:hover{opacity:.75}
+.tt-cls small{font-weight:400;font-size:9px;display:block;margin-top:2px;opacity:.8}
+.tt-empty{height:100%;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:6px;color:var(--ink4);font-size:15px;min-height:50px;transition:all .12s}
+.tt-empty:hover{background:var(--acll);color:var(--ac)}
+

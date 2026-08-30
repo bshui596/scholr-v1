@@ -1,0 +1,13 @@
+/* ══════════════════════ NOTIFICATION CENTER ══════════════════════ */
+#notif-panel{width:320px;max-height:70vh;overflow-y:auto;padding:8px;right:0;left:auto}
+.notif-hd{display:flex;justify-content:space-between;align-items:center;padding:4px 6px 8px;border-bottom:1px solid var(--bor);margin-bottom:6px}
+.notif-row{display:flex;gap:9px;align-items:flex-start;padding:9px 7px;border-radius:9px;cursor:pointer}
+.notif-row:hover{background:var(--s2)}
+.notif-row.unread{background:var(--acll)}
+.notif-row.unread:hover{background:var(--acl)}
+.notif-ic{font-size:14px;flex-shrink:0;line-height:1.3}
+.notif-msg{font-size:12px;color:var(--ink2);line-height:1.45}
+.notif-date{font-size:10px;color:var(--ink4);margin-top:2px}
+#notif-btn{position:relative}
+.notif-badge{position:absolute;top:-1px;right:-1px;background:var(--red);color:#fff;font-size:8.5px;font-weight:800;padding:1.5px 4px;border-radius:99px;min-width:15px;text-align:center;line-height:1.4;pointer-events:none}
+

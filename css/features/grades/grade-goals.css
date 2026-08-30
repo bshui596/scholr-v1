@@ -1,0 +1,3 @@
+/* ══════════════════════ GRADE GOALS ══════════════════════ */
+.gl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,300px));gap:12px;justify-content:center}
+

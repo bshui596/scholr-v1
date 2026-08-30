@@ -1,0 +1,20 @@
+/* ── FONTS ── */
+[data-f="outfit"]{--font:'Outfit',sans-serif;--font-h:'Fraunces',serif}
+[data-f="dm"]{--font:'DM Sans',sans-serif;--font-h:'DM Serif Display',serif}
+[data-f="jakarta"]{--font:'Plus Jakarta Sans',sans-serif;--font-h:'Lora',serif}
+[data-f="nunito"]{--font:'Nunito',sans-serif;--font-h:'Playfair Display',serif}
+[data-f="slab"]{--font:'Zilla Slab',serif;--font-h:'Zilla Slab',serif}
+[data-f="mono"]{--font:'JetBrains Mono',monospace;--font-h:'JetBrains Mono',monospace}
+[data-f="cormorant"]{--font:'Cormorant Garamond',serif;--font-h:'Cormorant Garamond',serif}
+[data-f="spectral"]{--font:'Spectral',serif;--font-h:'Spectral',serif}
+[data-f="grotesk"]{--font:'Space Grotesk',sans-serif;--font-h:'Space Grotesk',sans-serif}
+[data-f="bitter"]{--font:'Bitter',serif;--font-h:'Bitter',serif}
+[data-f="inter"]{--font:'Inter',sans-serif;--font-h:'Libre Baskerville',serif}
+[data-f="libre"]{--font:'Libre Franklin',sans-serif;--font-h:'Libre Baskerville',serif}
+[data-f="raleway"]{--font:'Raleway',sans-serif;--font-h:'Raleway',sans-serif}
+[data-f="josefin"]{--font:'Josefin Sans',sans-serif;--font-h:'Josefin Sans',sans-serif}
+[data-f="eb"]{--font:'EB Garamond',serif;--font-h:'EB Garamond',serif}
+[data-f="merriweather"]{--font:'Merriweather',serif;--font-h:'Merriweather',serif}
+[data-f="rubik"]{--font:'Rubik',sans-serif;--font-h:'Rubik',sans-serif}
+[data-f="poppins"]{--font:'Poppins',sans-serif;--font-h:'Poppins',sans-serif}
+

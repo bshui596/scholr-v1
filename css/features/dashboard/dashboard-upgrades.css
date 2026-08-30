@@ -1,0 +1,13 @@
+/* ══════════════════════ DASHBOARD UPGRADES ══════════════════════ */
+.d-grid{display:grid;grid-template-columns:1fr 300px;gap:14px}
+.greet h1{font-family:var(--font-h);font-size:27px;font-weight:400;letter-spacing:-.4px;line-height:1.2;margin-bottom:4px}
+.greet h1 strong{font-weight:700;color:var(--ac)}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:10px;margin-bottom:20px}
+.stat{background:var(--sur);border:1px solid var(--bor);border-radius:var(--rad);padding:14px 16px;cursor:pointer;transition:all .15s;box-shadow:var(--sh1)}
+.stat:hover{box-shadow:var(--sh2);transform:translateY(-2px)}
+.stat-lbl{font-size:9px;font-weight:800;color:var(--ink4);text-transform:uppercase;letter-spacing:.8px;margin-bottom:6px}
+.stat-val{font-family:var(--font-h);font-size:30px;font-weight:700;line-height:1;color:var(--ink);margin-bottom:4px}
+.stat-sub{font-size:10.5px;color:var(--ink4)}
+.stat-bar{height:2px;background:var(--bor);border-radius:99px;margin-top:10px;overflow:hidden}
+.stat-fill{height:100%;border-radius:99px;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+

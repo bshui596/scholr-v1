@@ -1,0 +1,9 @@
+
+/* ══════════════════════════════════════════════
+   SCHOLR v4 — CSS
+   Layout: body > .app > aside#sb + #sb-handle + .main
+                              .main > .topbar + .content-wrap
+                              .content-wrap > .page-scroll | #notes-shell
+   Notes shell is NEVER inside page-scroll.
+══════════════════════════════════════════════ */
+

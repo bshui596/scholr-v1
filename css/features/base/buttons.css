@@ -1,0 +1,29 @@
+/* ══════════════════════════════════════════
+   BUTTONS
+══════════════════════════════════════════ */
+.btn{padding:var(--btn-pad,7px 14px);border-radius:var(--btn-rad,8px);font-size:12.5px;font-weight:600;transition:all .15s;display:inline-flex;align-items:center;gap:5px;cursor:pointer;font-family:var(--font);line-height:1.2;border:none;text-decoration:none;letter-spacing:.01em}
+.bp{background:var(--ac);color:var(--on-ac,#fff);box-shadow:0 1px 3px rgba(0,0,0,.15),0 3px 8px rgba(0,0,0,.1)}
+.bp:hover{filter:brightness(1.1);transform:translateY(-1px);box-shadow:0 3px 12px rgba(0,0,0,.2)}
+.bp:active{transform:translateY(0);filter:brightness(.96)}
+[data-btn="ghost"] .btn.bp{background:transparent;color:var(--ac);border:1.5px solid var(--ac);box-shadow:none;}
+[data-btn="ghost"] .btn.bo{background:transparent;color:var(--ink3);border:1.5px solid var(--bor);}
+[data-btn="ghost"] .btn.bs{background:transparent;color:var(--ac);border:1.5px solid var(--acl);}
+[data-btn="neon"] .btn.bp{background:linear-gradient(135deg,var(--ac),var(--ac2));color:var(--on-ac,#fff);box-shadow:0 6px 20px rgba(15,107,48,.25);}
+[data-btn="glass"] .btn{background:rgba(255,255,255,.72);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.65);}
+[data-btn="flat"] .btn{box-shadow:none;}
+[data-btn="flat"] .btn.bp:hover{transform:none;filter:brightness(1.07);}
+[data-btn="flat"] .btn.bo{border-color:var(--bor);}
+[data-btn="flat"] .btn{border-radius:6px;}
+.bg{background:transparent;color:var(--ink3);border:1px solid var(--bor)}
+.bg:hover{background:var(--s2);color:var(--ink2)}
+.bo{background:transparent;color:var(--ink2);border:1px solid var(--bor)}
+.bo:hover{background:var(--s2);border-color:var(--bor2)}
+.bd{background:var(--redl);color:var(--red);border:1px solid transparent}
+.bd:hover{background:#fca5a5}
+.bs{background:var(--acll);color:var(--ac);border:1px solid var(--acl)}
+.bs:hover{filter:brightness(.97)}
+.sm{padding:5px 11px;font-size:11.5px}
+.xs{padding:3px 8px;font-size:11px;border-radius:6px}
+.icon-btn{padding:5px 7px;background:transparent;color:var(--ink4);border-radius:7px;border:1px solid transparent;font-size:13px;line-height:1;transition:all .12s}
+.icon-btn:hover{background:var(--s2);color:var(--ink2);border-color:var(--bor)}
+

@@ -1,0 +1,34 @@
+/* ══════════════════════════════════════════
+   MODALS
+══════════════════════════════════════════ */
+.mo{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:1000;align-items:center;justify-content:center;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.mo.on{display:flex}
+.mdl{background:var(--sur);border-radius:16px;padding:24px;width:480px;max-width:94vw;box-shadow:var(--sh3);max-height:90vh;overflow-y:auto;border:1px solid var(--bor)}
+.mdl-lg{width:620px}.mdl-xl{width:760px}
+.mdl-title{font-family:var(--font-h);font-size:18px;font-weight:600;margin-bottom:16px;color:var(--ink)}
+.mdl-acts{display:flex;gap:7px;justify-content:flex-end;margin-top:16px;padding-top:13px;border-top:1px solid var(--bor)}
+.ct-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:12px}
+.ct-btn{padding:8px 3px;border:1.5px solid var(--bor);border-radius:7px;text-align:center;cursor:pointer;font-size:10px;font-weight:700;color:var(--ink3);background:var(--s2);font-family:var(--font);transition:all .12s}
+.ct-btn:hover,.ct-btn.on{border-color:var(--ac2);background:var(--acll);color:var(--ac)}
+.ct-btn .ci{font-size:15px;display:block;margin-bottom:2px}
+.tpl-modal-g{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.tpl-mc{padding:9px 11px;border:1.5px solid var(--bor);border-radius:var(--rad);cursor:pointer;background:var(--s2);transition:all .12s}
+.tpl-mc:hover{border-color:var(--ac2);background:var(--acll)}
+.tpl-mc .ti{font-size:16px;display:block;margin-bottom:3px}
+.tpl-mc strong{display:block;font-size:11.5px;font-weight:700;margin-bottom:1px}
+.tpl-mc span{font-size:10px;color:var(--ink3)}
+
+/* AUTOSAVE BANNER */
+.save-banner{
+  position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(70px);
+  background:var(--ink);color:#fff;padding:7px 16px;border-radius:99px;
+  font-size:12px;font-weight:600;z-index:500;
+  transition:transform .3s cubic-bezier(.4,0,.2,1),opacity .3s;
+  opacity:0;pointer-events:none;display:flex;align-items:center;gap:6px;
+  box-shadow:var(--sh2);white-space:nowrap;
+}
+.save-banner.on{transform:translateX(-50%) translateY(0);opacity:1}
+.save-banner .sb-ic{font-size:11px}
+
+/* TOAST */
+

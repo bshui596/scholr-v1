@@ -1,0 +1,16 @@
+/* ══════════════════════ MODAL BASE ══════════════════════ */
+.mo{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:1000;align-items:center;justify-content:center;backdrop-filter:blur(6px)}
+.mo.on{display:flex;animation:moFade .15s ease}
+@keyframes moFade{from{opacity:0}to{opacity:1}}
+.mdl{background:var(--sur);border-radius:16px;padding:24px;width:490px;max-width:94vw;box-shadow:var(--sh3);max-height:90vh;overflow-y:auto;border:1px solid var(--bor)}
+.mdl-lg{width:640px}.mdl-xl{width:780px}
+.mdl-title{font-family:var(--font-h);font-size:17px;font-weight:600;margin-bottom:16px;color:var(--ink)}
+.mdl-acts{display:flex;gap:8px;justify-content:flex-end;margin-top:16px;padding-top:14px;border-top:1px solid var(--bor)}
+.fi,.fsel,.fta{width:100%;padding:8px 12px;border:1px solid var(--bor);border-radius:8px;font-size:13px;background:var(--s2);color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s;appearance:none}
+.fi:focus,.fsel:focus,.fta:focus{border-color:var(--ac2);box-shadow:0 0 0 3px var(--acll);background:var(--sur)}
+.fta{min-height:70px;resize:vertical}
+.fr{margin-bottom:12px}
+.fr2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.fr3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:12px}
+.fl{display:block;font-size:10px;font-weight:700;color:var(--ink4);text-transform:uppercase;letter-spacing:.7px;margin-bottom:5px}
+

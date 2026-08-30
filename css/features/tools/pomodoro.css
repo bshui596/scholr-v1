@@ -1,0 +1,5 @@
+/* ══════════════════════ POMODORO PAGE ══════════════════════ */
+.pom-tab-btn{flex:1;padding:7px 12px;background:transparent;border:none;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;color:var(--ink3);font-family:var(--font);transition:all .15s}
+.pom-tab-btn.on{background:var(--sur);color:var(--ac);box-shadow:var(--sh1)}
+.pom-tab-btn:hover:not(.on){background:var(--sur);color:var(--ink)}
+

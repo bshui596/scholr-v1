@@ -1,0 +1,8 @@
+/* ══════════════════════ FLASHCARDS ══════════════════════ */
+.fc-deck-card{background:var(--sur);border:1px solid var(--bor);border-radius:14px;padding:20px;cursor:pointer;transition:all .18s;box-shadow:var(--sh1);position:relative;overflow:hidden}
+.fc-deck-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--deck-color,var(--ac))}
+.fc-deck-card:hover{transform:translateY(-3px);box-shadow:var(--sh2)}
+.fc-deck-name{font-size:14px;font-weight:700;margin-bottom:4px;color:var(--ink)}
+.fc-deck-count{font-size:11px;color:var(--ink4)}
+.fc-deck-acts{display:flex;gap:6px;margin-top:12px;padding-top:10px;border-top:1px solid var(--bor);flex-wrap:wrap}
+

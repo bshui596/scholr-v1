@@ -1,0 +1,32 @@
+/* ══════════════════════════════════════════
+   GOOGLE CLASSROOM
+══════════════════════════════════════════ */
+.gc-wrap{max-width:920px;width:100%;margin:0 auto}
+.gc-state-card{padding:28px 24px;text-align:center}
+.gc-state-card .gc-ic{font-size:34px;margin-bottom:10px}
+.gc-state-card h3{font-family:var(--font-h);font-size:15px;font-weight:700;color:var(--ink2);margin-bottom:6px}
+.gc-state-card p{font-size:12.5px;color:var(--ink4);max-width:460px;margin:0 auto 14px;line-height:1.6}
+.gc-setup-form{max-width:420px;margin:0 auto;text-align:left}
+.gc-setup-form .fl{margin-top:10px}
+.gc-help{font-size:11px;color:var(--ink4);margin-top:10px;line-height:1.6;text-align:left;background:var(--s2);border-radius:8px;padding:10px 12px}
+.gc-help a{color:var(--ac)}
+.gc-help ol{margin:6px 0 0 16px;padding:0}
+.gc-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.gc-toolbar-meta{font-size:11.5px;color:var(--ink4)}
+.gc-course{margin-bottom:14px;overflow:hidden}
+.gc-course-hd{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--bor)}
+.gc-course-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.gc-course-name{font-weight:700;font-size:13.5px;flex:1}
+.gc-course-link{font-size:11px;color:var(--ac);text-decoration:none}
+.gc-work-list{display:flex;flex-direction:column}
+.gc-work{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-bottom:1px solid var(--bor);text-decoration:none;transition:background .1s}
+.gc-work:last-child{border-bottom:none}
+.gc-work:hover{background:var(--s2)}
+.gc-work-ic{font-size:15px;margin-top:1px}
+.gc-work-body{flex:1;min-width:0}
+.gc-work-title{font-size:12.5px;font-weight:600;color:var(--ink);line-height:1.4}
+.gc-work-due{font-size:11px;color:var(--ink4);margin-top:2px}
+.gc-work-due.overdue{color:var(--red,#B91C1C);font-weight:600}
+.gc-empty{padding:18px 14px;font-size:12px;color:var(--ink4);text-align:center}
+.gc-spin{display:inline-block;width:14px;height:14px;border:2px solid var(--bor);border-top-color:var(--ac);border-radius:50%;animation:gcSpin .7s linear infinite;vertical-align:middle;margin-right:6px}
+@keyframes gcSpin{to{transform:rotate(360deg)}}

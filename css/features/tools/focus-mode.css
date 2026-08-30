@@ -1,0 +1,5 @@
+/* ══════════════════════ FOCUS MODE ══════════════════════ */
+#focus-overlay{display:none;align-items:center;justify-content:center;flex-direction:column;gap:16px}
+#focus-overlay.on{display:flex !important}
+.amb-btn.on{background:rgba(110,231,183,.25) !important;color:#6ee7b7 !important;border:1px solid rgba(110,231,183,.4) !important}
+
